@@ -7,7 +7,7 @@
     <title>DashBoard Resposive White-Black-ZuluDesign</title>
 
     <!-- MATERIAL ICONS  -->
-    <!-- <link href="https://fonts.googleapis.com/css?family=Material+Icons+Sharp" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons+Sharp" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp" />
 
     <!-- CSS STYLES  -->
@@ -16,6 +16,7 @@
 
 <body>
     <div class="container">
+        <!----------------------- ASIDE  --------------->
         <aside>
             <div class="top">
                 <div class="logo">
@@ -52,11 +53,81 @@
                     <h3>Settings</h3>
                 </a>
                 <a href="#">
-                    <span class="material-symbols-sharp">logout</span>
-                    <h3>Logout</h3>
-                </a>
+                    <span class="material-symbols-sharp">message</span>
+                    <h3>Messages</h3>
+                    <span class="message-count">26</span>
+                    <a href="#">
+                        <span class="material-symbols-sharp">logout</span>
+                        <h3>Logout</h3>
+                    </a>
             </div>
         </aside>
+
+        <!----------- END ASIDE  --------------->
+        <main>
+            <h1>Dashboard</h1>
+
+            <div class="date">
+                <input type="data" />
+            </div>
+            <div class="insights">
+                <div class="sales">
+                    <span class="material-icons-sharp">analytics</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Sales</h3>
+                            <h1>$25,698</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>81%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Last 24 Hours</small>
+                </div>
+                <div class="expenses">
+                    <span class="material-icons-sharp">bar_chart</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Sales</h3>
+                            <h1>$22,8</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>51%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Last 24 Hours</small>
+                </div>
+                <div class="incomes">
+                    <span class="material-icons-sharp">analytics</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Sales</h3>
+                            <h1>$25,698</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>81%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Last 24 Hours</small>
+                </div>
+            </div>
+
+        </main>
     </div>
 
 </body>
